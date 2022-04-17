@@ -12,7 +12,11 @@ import android.widget.ScrollView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.jorgemartinez.tictactoe.R
-
+/*
+* git remote add origin https://github.com/DonFreecssWeb/TicTacToe.git
+git branch -M main
+git push -u origin main
+* */
 class LoginActivity : AppCompatActivity() {
     lateinit var etEmail: EditText
     lateinit var etPassword: EditText
